@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>học về thẻ a</title>
+     </head>
+     <body>
+         <!--thẻ a dùng để đưa đường link vào trang web-->
+         <!--cú pháp thẻ a cơ bản bên dưới-->
+         <a href="https://www.facebook.com/profile.php?id=100044753243981">đây là một liên kết  </a>
+         <!--trong đó <a href="đường link"> dòng chữ đại diện cho đường link</a>-->
+         <!--một số thuộc tính của thẻ a-->
+         <!--thuộc tính title--> <!--dùng để mô tả ý nghĩa của đường liên kết
+        khi đưa hover chuột vò link thì sẽ xuất hiện một dòng chữ, đó là nội dung ta để trong title vd ở dứ -->
+        <br><!-- dùng br cho nó xuốn hàng dị à-->
+        <a href="https://www.facebook.com/profile.php?id=100044753243981" title="đây là nội dung của title"> đây là chữ đại diện cho liên kết</a>
+        <!-- <a href="đường link" title="nội dung hiển thị của title"> dòng chữ đại diện của liên kết</a>-->
+
+        <!------------------------------------------------------------------------>
+
+        <!--thuộc tính rel--> <!--thường dùng trong việt SEO -->
+        <!--Thuộc tính rel dùng để khai báo cho các công cụ search engine biết là có dò đường link này hay không.
+        Nó có hai giá trị như sau:
+         + follow là có dò
+         + nofollow là không dò
+        Ví dụ: Khai báo cho các bot search không dò vào đường link ở ví dụ trên.
+        -->
+        <br>
+       <a href="liên kết nào đó" rel="nofollow"> ví dụ về rel</a>
+
+       <!------------------------------------------------------------------------>
+
+       <!--thuộc tính target--> <!--dùng khi muốn người dùng nhấn vào liên kết có mở một tap mới hay không-->
+       <!--các dạng trong target
+         + _blank dùng để chuyển link trên tab mới
+         + _self dùng để chuyển link trên tab hiện tại (giá trị mật định)
+         + _parent dùng để chuyển link tới tab mở tab hiện tại, hay còn gọi là tab cha của tab hiện tại
+         + _top dùng để nhảy tới tab hiện tại và thường dùng trong iframe khi muốn thoát khỏi iframe và chạy tới trang góc luôn-->
+        
+         <br>
+         <!--thường thì dùng _blank hay hơn-->
+        <a href="https://www.facebook.com/profile.php?id=100044753243981" target="_blank">ví dụ về thuộc tính target sử dụng _blank</a>
+        <br>
+        <a href="https://www.facebook.com/profile.php?id=100044753243981" target="_self">ví dụ về thuộc tính target sử dụng _self</a>
+        <br>
+        <a href="https://www.facebook.com/profile.php?id=100044753243981" target="_parent">ví dụ về thuộc tính target sử dụng _parent</a>
+        <br>
+        <a href="https://www.facebook.com/profile.php?id=100044753243981" target="_top">ví dụ về thuộc tính target sử dụng _top</a>
+
+        <!------------------------------------------------------------------------>
+        
+        <!--thuộc tính downloat--> <!--dùng để khi muốn người dùng click vào đường link thì tệp hoặt nội dung nào đố sẻ tải xuốn luôn-->
+        <!--<a href="đường link tải" download="tên nội dung tải">chữ đại diện link</a>-->
+        <br>
+        <a href="https://upanh123.com/wp-content/uploads/2021/03/anh-dai-dien-buon-cho-nam16-3.jpg" download="ảnh ví dụ">ví dụ thuộc tính download</a>
+     </body>
+ </html>
